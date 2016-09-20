@@ -554,7 +554,7 @@ def adam(loss_or_grads, params, learning_rate=0.001, beta1=0.9,
         A scalar loss expression, or a list of gradient expressions
     params : list of shared variables
         The variables to generate update expressions for
-    learning_rate : float
+    learning_rate : float or symbolic scalar
         Learning rate
     beta1 : float
         Exponential decay rate for the first moment estimates.
